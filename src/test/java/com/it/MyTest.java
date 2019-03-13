@@ -13,6 +13,5 @@ public class MyTest {
         String url = driver.getCurrentUrl();
         Assert.assertEquals("https://mvnrepository.com/",url);
         driver.quit();
-
     }
 }
